@@ -1,3 +1,8 @@
+
+a:link {
+    text-decoration: none;
+}
+
 .top_bar .img {
     position: absolute;
     top: 0;
@@ -103,15 +108,13 @@
     height: 100px;
     width: 100%;
     top: 160px;
-    left: 0px;
-    background-color: blue;
+    left: 0;
 }
 
 .site-header .container {
     width: 1226px;
     margin-right: auto;
     margin-left: auto;
-    background-color: red;
 }
 
 .site-header .header-logo {
@@ -126,20 +129,41 @@
     width: 55px;
     height: 55px;
     overflow: hidden;
-    background-color: #ff6700;
+    background: url("../image/header-logo.png");
 }
 
 .site-header .header-search {
-    float: right;
+    position: absolute;
+    top: 0;
+    right: -350px;
     width: 296px;
+    height: 50px;
     margin-top: 25px;
 }
 
-.site-header .header-search .search-form {
-    position: relative;
-    width: 296px;
+
+.site-header .header-search .search {
+    position: absolute;
+    width: 230px;
     height: 50px;
     z-index: 20;
+    outline: none;
+    font-size: 15px;
+}
+
+.site-header .header-search .search_button {
+    position: relative;
+    left: 236px;
+    width: 56px;
+    height: 56px;
+    background-color: white;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+.site-header .header-search .search_button:hover {
+    background-color: #FF6700;
+    transition: all 0.5s;
 }
 
 .site-header .header-nav {
@@ -152,22 +176,46 @@
     padding: 12px 0 0 30px;
     list-style-type: none;
     font-size: 16px;
-    background-color: purple;
+    /*background-color: purple;*/
 }
 
 .site-header .header-nav .nav-list {
     position: relative;
-    width: 80%;
+    z-index: 10;
+    float: left;
+    left: 80px;
+    width: 85%;
     height: 100%;
-    left: 120px;
-    background-color: black;
+    margin: 0;
+    list-style-type: none;
+    font-size: 14px;
+    /*background-color: black;*/
+}
+
+.nav-list .nav-item {
+    float: left;
+    display: inline-block;
+    line-height: 88px;
+    text-align: center;
+    width: 75px;
+    color: #333;
+    height: 88px
+}
+
+.nav-item .span {
+    margin: 0 .3em;
+    color: #424242;
+}
+
+.nav-list .nav-item:hover {
+    color: #ff6700;
 }
 
 .home {
     position: absolute;
     z-index: 10;
     top: 260px;
-    height: 750px;
+    height: 730px;
     left: 0;
     width: 100%;
     background-color: yellow;
@@ -191,6 +239,35 @@
     z-index: 15;
     left: 10%;
     background-color: cadetblue;
+}
+
+.home .main_page .left_bar {
+    height: 100%;
+    width: 210px;
+    background: rgba(105, 101, 101, .6);
+}
+
+.home .main_page .left_bar .item {
+    position: relative;
+    color: white;
+    height: 50px;
+    width: 210px;
+    text-align: left;
+    line-height: 50px;
+}
+
+.home .main_page .left_bar .item .item-img {
+    position: absolute;
+    background: transparent;
+    top: 17px;
+    right: 15px;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+
+.home .main_page .left_bar .item:hover {
+    background-color: red;
 }
 
 .right_bar {
