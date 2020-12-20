@@ -1,6 +1,7 @@
 
 a:link {
     text-decoration: none;
+    display: block;
 }
 
 .top_bar .img {
