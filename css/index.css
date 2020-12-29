@@ -219,7 +219,7 @@ a:link {
     height: 830px;
     left: 0;
     width: 100%;
-    /*background-color: yellow;*/
+    /*background-color: white;*/
 }
 
 .home .main_page {
@@ -461,6 +461,7 @@ a:link {
 }
 
 .box-hd {
+    z-index: 20;
     position: relative;
     top: 850px;
     margin: 0 auto;
