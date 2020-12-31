@@ -21,7 +21,7 @@ a:link {
     position: relative;
     top: 0;
     float: left;
-    left: 140px;
+    left: 340px;
     height: 40px;
     line-height: 40px;
 }
@@ -358,8 +358,8 @@ a:link {
 }
 
 .search_result .goods_list .goods_item {
-    float: left;
     position: relative;
+    float: left;
     width: 306px;
     height: 380px;
     background: #F5F5F5;
@@ -381,7 +381,8 @@ a:link {
     margin: 0 auto;
     /*background: blue;*/
 }
-.search_result .goods_list .goods_item .container .item_mini_img{
+
+.search_result .goods_list .goods_item .container .item_mini_img {
     position: relative;
     top: 50px;
     border: 1px solid #ff6700;
@@ -391,7 +392,7 @@ a:link {
     /*background: blue;*/
 }
 
-.search_result .goods_list .goods_item .container .title {
+.search_result .goods_list .goods_item .container .title, .search_favourite .recommend_item .title {
     position: relative;
     top: 50px;
     margin: 0 auto;
@@ -402,13 +403,72 @@ a:link {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    background: transparent;
 }
-.search_result .goods_list .goods_item .container .price{
+
+.search_result .goods_list .goods_item .container .price, .search_favourite .recommend_item .price {
     position: relative;
     top: 50px;
     margin: 0 10px 10px;
     text-align: center;
     color: #ff6700;
+
+}
+
+.search_favourite {
+    position: relative;
+    top: 200px;
+    width: 1226px;
+    margin: 0 auto;
+    border-top: 1px solid #e0e0e0;
+    padding: 20px 0 100px;
+    /*background: black;*/
+}
+
+.search_favourite .title {
+    position: relative;
+    top: -60px;
+    margin: 0 auto;
+    width: 500px;
+    height: 80px;
+    font-size: 30px;
+    color: #757575;
+    text-align: center;
+    line-height: 80px;
+    background: #F5F5F5;
+}
+
+.search_favourite .recommend_list {
+    position: relative;
+    top: -50px;
+    width: 1226px;
+    height: 310px;
+    /*background: green;*/
+    float: left;
+}
+
+.search_favourite .recommend_item {
+    /*position: relative;*/
+    width: 245px;
+    height: 310px;
+    float: left;
+    background: #F5F5F5;
+}
+.search_favourite .recommend_item .container{
+    position: relative;
+    width: 230px;
+    height: 300px;
+    /*float: left;*/
+    margin: 0 auto;
+    background: white;
+}
+.search_favourite .recommend_item .item_img {
+    position: relative;
+    top: 50px;
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    /*background: blue;*/
 }
 
 .site_footer {
