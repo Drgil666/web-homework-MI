@@ -589,6 +589,10 @@ a:link {
     text-align: center;
 }
 
+.footer_service_list .item a:hover {
+    color: #ff6700;
+}
+
 .footer_links {
     position: relative;
     width: 100%;
@@ -747,17 +751,21 @@ a:link {
     margin: 0;
     line-height: 18px;
 }
-.site_info .container .info_text .sites a{
+
+.site_info .container .info_text .sites a {
     display: inline-block;
     color: #757575;
 }
+
 .site_info .container .info_text p a {
     display: inline-block;
     color: #b0b0b0;
 }
+
 .site_info .container .info_text p a:hover {
     color: #FF6700;
 }
+
 .site_info .container .info_text .sites .sep {
     margin: 0;
 }
@@ -767,14 +775,17 @@ a:link {
     margin: 4px 0 15px;
     padding-left: 67px;
 }
-.site_info .container .info_links a{
+
+.site_info .container .info_links a {
     display: inline-block;
 }
-.site_info .container .info_links a img{
+
+.site_info .container .info_links a img {
     width: auto;
     height: 28px;
     margin-left: 0;
 }
+
 .site_info .slogan {
     clear: both;
     margin: 30px auto 0;

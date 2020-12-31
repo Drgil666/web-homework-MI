@@ -228,6 +228,10 @@ a:link {
     text-align: center;
 }
 
+.footer_service_list .item a:hover {
+    color: #ff6700;
+}
+
 .footer_links {
     position: relative;
     width: 100%;
