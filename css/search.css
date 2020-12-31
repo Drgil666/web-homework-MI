@@ -219,7 +219,8 @@ a:link {
 .breadcrumbs a:hover {
     color: #FF6700;
 }
-.search_filter{
+
+.search_filter {
     position: relative;
     top: 130px;
     margin: 0 auto;
@@ -229,7 +230,8 @@ a:link {
     background: white;
     /*font-size: 15px;*/
 }
-.search_filter .container{
+
+.search_filter .container {
     position: relative;
     /*top: 130px;*/
     margin: 0 auto;
@@ -274,52 +276,60 @@ a:link {
     height: 30px;
     line-height: 30px;
 }
-.search_result{
+
+.search_result {
     position: relative;
     padding: 20px 0 100px;
     top: 130px;
     width: 1226px;
-    height: 1000px;
+    height: 800px;
     margin: 0 auto;
-    background: blue;
+    /*background: blue;*/
 }
-.search_result a{
+
+.search_result a {
     display: inline-block;
     color: #424242;
     transition: all .4s;
 }
-.search_result a:hover{
+
+.search_result a:hover {
     transition: all .4s;
     color: #FF6700;
 }
-.search_result .order_list{
+
+.search_result .order_list {
     position: absolute;
     width: 1226px;
     margin: 0 auto;
-    height: 80px;
+    height: 60px;
     /*background: green;*/
 }
-.search_result .order_list .order_list_left{
+
+.search_result .order_list .order_list_left {
     position: absolute;
     top: 0;
     width: 400px;
     height: 30px;
     float: left;
+    line-height: 30px;
     /*background: black;*/
     color: #757575;
     left: 0;
 }
-.search_result .order_list .order_list_right{
+
+.search_result .order_list .order_list_right {
     position: absolute;
-    top: 20px;
+    top: 0;
     right: 0;
-    width: 420px;
+    width: 500px;
     height: 30px;
     float: right;
     /*background: black;*/
     color: #424242;
 }
-.search_result .order_list .order_list_right .address_show{
+
+.search_result .order_list .order_list_right .address_show {
     position: relative;
     display: inline-block;
     background: #fff;
@@ -329,12 +339,78 @@ a:link {
     padding: 7px 14px;
     cursor: pointer;
 }
-.search_result .order_list .order_list_left .order_item{
+
+.search_result .order_list .order_item {
     width: 88px;
     height: 20px;
     line-height: 20px;
+    font-size: 15px;
     text-align: center;
 }
+
+.search_result .goods_list {
+    position: absolute;
+    top: 80px;
+    width: 1226px;
+    margin: 0 auto;
+    height: 2000px;
+    background: #F5F5F5;
+}
+
+.search_result .goods_list .goods_item {
+    float: left;
+    position: relative;
+    width: 306px;
+    height: 380px;
+    background: #F5F5F5;
+}
+
+.search_result .goods_list .goods_item .container {
+    position: relative;
+    width: 290px;
+    height: 370px;
+    margin: 0 auto;
+    background: white;
+}
+
+.search_result .goods_list .goods_item .container .item_img {
+    position: relative;
+    top: 50px;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    /*background: blue;*/
+}
+.search_result .goods_list .goods_item .container .item_mini_img{
+    position: relative;
+    top: 50px;
+    border: 1px solid #ff6700;
+    width: 34px;
+    height: 34px;
+    margin: 0 auto;
+    /*background: blue;*/
+}
+
+.search_result .goods_list .goods_item .container .title {
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+    width: 230px;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.search_result .goods_list .goods_item .container .price{
+    position: relative;
+    top: 50px;
+    margin: 0 10px 10px;
+    text-align: center;
+    color: #ff6700;
+}
+
 .site_footer {
     background: white;
 }

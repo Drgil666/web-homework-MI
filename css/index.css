@@ -226,9 +226,10 @@ a:link {
     z-index: 20;
     position: relative;
     top: 26px;
-    width: 80%;
+    width: 1226px;
     height: 500px;
-    left: 10%;
+    /*left: 0;*/
+    margin: 0 auto;
     background-color: black;
 }
 
@@ -271,10 +272,10 @@ a:link {
 .home .main_page .left_bar_container .left_bar_hover_list {
     position: absolute;
     top: 0;
-    width: 982px;
+    width: 992px;
     height: 500px;
     z-index: 10;
-    right: 0;
+    left: 234px;
     background: white;
     /*display: none;*/
     visibility: hidden;
@@ -320,10 +321,10 @@ a:link {
 .home .main_page .left_bar_container .main_list {
     position: absolute;
     top: 0;
-    width: 982px;
+    width: 992px;
     height: 500px;
     z-index: 0;
-    right: 0;
+    left: 234px;
     opacity: 1;
     background: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d65e7bc110ca74b9d7fa7ce53a841971.jpg?thumb=1&w=1533&h=575&f=webp&q=90");
 }
@@ -380,10 +381,11 @@ a:link {
 .home .bottom_bar {
     position: relative;
     top: 50px;
-    width: 80%;
+    width: 1226px;
     height: 170px;
     z-index: 15;
-    left: 10%;
+    /*left: 10%;*/
+    margin: 0 auto;
     /*background-color: cadetblue;*/
 }
 
