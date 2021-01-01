@@ -90,7 +90,7 @@ a:link {
     transition: height .3s;
 }
 
-.site-header {
+.site_header {
     position: absolute;
     z-index: 20;
     height: 100px;
@@ -100,19 +100,19 @@ a:link {
     background: white;
 }
 
-.site-header .container {
+.site_header .container {
     width: 1226px;
     margin-right: auto;
     margin-left: auto;
 }
 
-.site-header .header-logo {
+.site_header .header-logo {
     float: left;
     width: 62px;
     margin-top: 22px;
 }
 
-.site-header .logo {
+.site_header .logo {
     position: relative;
     display: block;
     width: 55px;
@@ -121,7 +121,7 @@ a:link {
     background: url("../image/header-logo.png");
 }
 
-.site-header .header-search {
+.site_header .header-search {
     position: absolute;
     top: 0;
     right: -350px;
@@ -130,7 +130,7 @@ a:link {
     margin-top: 25px;
 }
 
-.site-header .header-search .search {
+.site_header .header-search .search {
     position: absolute;
     width: 230px;
     height: 50px;
@@ -139,7 +139,7 @@ a:link {
     font-size: 15px;
 }
 
-.site-header .header-search .search_button {
+.site_header .header-search .search_button {
     position: relative;
     left: 236px;
     width: 56px;
@@ -149,12 +149,12 @@ a:link {
     transition: all 0.5s;
 }
 
-.site-header .header-search .search_button:hover {
+.site_header .header-search .search_button:hover {
     background-color: #FF6700;
     transition: all 0.5s;
 }
 
-.site-header .header-nav {
+.site_header .header-nav {
     position: relative;
     z-index: 10;
     float: left;
@@ -167,7 +167,7 @@ a:link {
     /*background-color: purple;*/
 }
 
-.site-header .header-nav .nav-list {
+.site_header .header-nav .nav-list {
     position: relative;
     z-index: 10;
     float: left;
@@ -392,7 +392,7 @@ a:link {
     /*background: blue;*/
 }
 
-.search_result .goods_list .goods_item .container .title, .search_favourite .recommend_item .title {
+.search_result .goods_list .goods_item .container .title1, .search_favourite .recommend_item .title1 {
     position: relative;
     top: 50px;
     margin: 0 auto;
@@ -425,7 +425,7 @@ a:link {
     /*background: black;*/
 }
 
-.search_favourite .title {
+.search_favourite .title1 {
     position: relative;
     top: -60px;
     margin: 0 auto;
